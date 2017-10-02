@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Commands\\" : "commands/",
+            "Src\\" : "src/"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^3.2",
+        "symfony/console": "^3.3"
+    }
+}
